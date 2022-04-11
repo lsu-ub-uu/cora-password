@@ -28,7 +28,6 @@ import org.testng.annotations.Test;
 
 import se.uu.ub.cora.password.texthasher.PasswordEncoderSpy;
 import se.uu.ub.cora.password.texthasher.TextHasher;
-import se.uu.ub.cora.password.texthasher.internal.TextHasherArgon2;
 import se.uu.ub.cora.testutils.mcr.MethodCallRecorder;
 
 public class TextHasherArgon2Test {

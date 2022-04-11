@@ -28,13 +28,13 @@ import se.uu.ub.cora.password.texthasher.TextHasher;
  */
 public class TextHasherArgon2 implements TextHasher {
 	PasswordEncoder argonEncoder;
-	private int saltLength = 256 / 8;
-	private int hashLength = 512 / 8;
-	private int parallelism = 1;
-	private int memoryInKb = 400 * 1024;
-	private int iterations = 2;
 
 	public TextHasherArgon2() {
+		int saltLength = 256 / 8;
+		int hashLength = 512 / 8;
+		int parallelism = 1;
+		int memoryInKb = 400 * 1024;
+		int iterations = 2;
 		argonEncoder = createEncoder(saltLength, hashLength, parallelism, memoryInKb, iterations);
 	}
 
