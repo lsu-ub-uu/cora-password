@@ -11,11 +11,11 @@
 	<name>Cora password</name>
 
 	<properties>
-		<spring-security-crypto.version>5.6.3</spring-security-crypto.version>
+		<spring-security-crypto.version>5.7.4</spring-security-crypto.version>
 		<bcpkix-jdk15on.version>1.70</bcpkix-jdk15on.version>
 		<commons-logging.verison>1.2</commons-logging.verison>
-		<testutils.version>1.5.0</testutils.version>
-		<testspies.version>1.1.0</testspies.version>
+		<testutils.version>1.6.0</testutils.version>
+		<testspies.version>1.2.0</testspies.version>
 	</properties>
 
 	<scm>
