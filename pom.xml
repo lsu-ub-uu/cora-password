@@ -7,7 +7,7 @@
 	</parent>
 
 	<artifactId>password</artifactId>
-	<version>1.4.0</version>
+	<version>1.4.1-SNAPSHOT</version>
 	<name>Cora password</name>
 
 	<properties>
@@ -22,7 +22,7 @@
 		<connection>scm:git:https://github.com/lsu-ub-uu/cora-password.git</connection>
 		<developerConnection>scm:git:https://github.com/lsu-ub-uu/cora-password.git</developerConnection>
 		<url>https://github.com/lsu-ub-uu/cora-password.git</url>
-		<tag>password-1.4.0</tag>
+		<tag>release/1.4</tag>
 	</scm>
 
 	<dependencies>
