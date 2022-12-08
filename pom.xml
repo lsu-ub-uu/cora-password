@@ -11,7 +11,7 @@
 	<name>Cora password</name>
 
 	<properties>
-		<spring-security-crypto.version>5.7.4</spring-security-crypto.version>
+		<spring-security-crypto.version>6.0.0</spring-security-crypto.version>
 		<bcpkix-jdk15on.version>1.70</bcpkix-jdk15on.version>
 		<commons-logging.verison>1.2</commons-logging.verison>
 		<testutils.version>1.9.0</testutils.version>
