@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>se.uu.ub.cora</groupId>
 		<artifactId>cora-parent</artifactId>
-		<version>2.3.0</version>
+		<version>2.4.0</version>
 	</parent>
 
 	<artifactId>password</artifactId>
@@ -11,10 +11,10 @@
 	<name>Cora password</name>
 
 	<properties>
-		<spring-security-crypto.version>6.0.0</spring-security-crypto.version>
+		<spring-security-crypto.version>6.0.3</spring-security-crypto.version>
 		<bcpkix-jdk15on.version>1.70</bcpkix-jdk15on.version>
 		<commons-logging.verison>1.2</commons-logging.verison>
-		<testutils.version>1.9.0</testutils.version>
+		<testutils.version>1.10.0</testutils.version>
 		<testspies.version>1.2.0</testspies.version>
 	</properties>
 
